@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-responsivo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>FoodJP</title>
+    <link rel="icon" type="imagem/png" href="img/icon-foodjp.png"/>
+</head>
+<body>
+	<header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Food<span style="color: #DA2535;">JP</span></h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Cardápio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <a href="#"><button> Entrar</button></a>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu-hamburguer.svg" alt=""></button>
+
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projeto</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+            <div class="login-button">
+                <button> <a href="#">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+	<section class="container">
+		<section class="banner">
+			<div class="banner-text">
+				<h1>Comida Oriental</h1>
+				<p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e ingredientes frescos.</p>
+				<a href="#"><button>Cardápio</button></a>
+			</div>
+			<div>
+				<img src="img/sushi.png" alt="Sushi">
+			</div>
+		</section>
+
+		<section class="presentation">
+			<div>
+				<img src="img/img-segurando-prato.png" alt="Prato">
+			</div>
+			<div class="presentation-text">
+				<h1>Feita de forma Tradicional</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				<a href="#">Ler mais sobre o modo de preparo </a>
+			</div>
+		</section>
+
+		<section class="produtos">
+			<h1>Mais populares</h1>
+			<div class="prod">
+				<div class="card">
+					<div class="card-img">
+						<img src="img/img-prato-1.png" alt="Imagem do prato">
+					</div>
+				
+					<p class="nome-do-prato">
+						Ramen de Frango
+					</p>
+				
+					<p class="descricao-prato">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+				
+					<p class="preco-do-prato">
+						R$ 30
+					</p>
+				
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="img/img-prato-2.png" alt="Imagem do prato">
+					</div>
+				
+					<p class="nome-do-prato">
+						Ramen Apimentado
+					</p>
+				
+					<p class="descricao-prato">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+				
+					<p class="preco-do-prato">
+						R$ 30
+					</p>
+				
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="img/img-prato-3.png" alt="Imagem do prato">
+					</div>
+				
+					<p class="nome-do-prato">
+						Ramen Tradicional
+					</p>
+				
+					<p class="descricao-prato">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+				
+					<p class="preco-do-prato">
+						R$ 30
+					</p>
+				
+				</div>
+			</div>
+		</section>
+
+		<section class="comentarios">
+			<h1>Comentários</h1>
+			<div class="users">
+				<div class="user-coments">
+					<img src="img/img-profile-1.png" alt="Cliente 1">
+					<h2>Daniele Almeida</h2>
+					<p>Ótimo serviço! Encantada com a qualidade dos pratos.</p>
+					<img src="img/estrelas.png" alt="rating">
+				</div>
+				<div class="user-coments">
+					<img src="img/img-profile-2.png" alt="Cliente 2">
+					<h2>Ricardo França</h2>
+					<p>Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+					<img src="img/estrelas.png" alt="rating">
+				</div>
+			</div>
+		</section>
+		<section class="localizacao">
+			<h1>Localização</h1>
+			<div>
+				<img src="img/mapa-rio.png" alt="Mapa">
+			</div>
+			<div class="pesquisa">
+				<input type="text" placeholder="Localização para entrega">
+				<button>Buscar</button>
+			</div>
+		</section>
+	</section>
+	<footer class="container">
+		<div class="logo">
+			<h1>Food<span style="color: #DA2535;">JP</span></h1>
+		</div>
+		<div>
+			<h2>Contato</h2>
+			<ul>
+				<li><a href="#">+55 21 9999-9999</a></li>
+				<li><a href="#">email@gmail.com</a></li>
+			</ul>
+		</div>
+		<div>
+			<h2>Sobre nós</h2>
+			<ul>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Valores</a></li>
+				<li><a href="#">Pagina principal</a></li>
+			</ul>
+		</div>
+		<div>
+			<h2>Serviços</h2>
+			<ul>
+				<li><a href="#">Entrega</a></li>
+				<li><a href="#">Retirada</a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
